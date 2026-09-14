@@ -56,12 +56,12 @@ Since you're being asked to trust an unsigned download, every release ships with
 - **`SECURITY-PASS.md`** inside the zip — plain-English notes on what the app does, what it
   deliberately doesn't, and where it keeps things
 
-NoDeadAir reads your browser's cookie storage on purpose, so it can reuse your existing Twitch and
-Kick login instead of asking for a password. That's a common antivirus heuristic, and combined with
-being unsigned it's why a scanner may occasionally flag it.
+To be clear about what signing in does: NoDeadAir opens Twitch's and Kick's real login pages inside
+its **own** embedded browser, which keeps its own session — exactly like signing into a site in
+Edge. It does not read, import from, or touch Chrome, Firefox, or your everyday Edge profile.
 
-Your Twitch and Kick sign-in is stored by the Edge browser component built into Windows,
-encrypted for your user account. NoDeadAir never writes your login to a file of its own.
+Your sign-in lives in that embedded browser's own profile, encrypted by Windows for your user
+account. NoDeadAir never writes your login to a file of its own, and never asks for your password.
 
 ---
 
