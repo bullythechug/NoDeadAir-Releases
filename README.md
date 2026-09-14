@@ -7,8 +7,8 @@ Twitch and Kick, side by side, without a browser tab per stream.
 
 ### [⬇ Download for Windows](../../releases/latest)
 
-Windows 10 or 11, 64-bit. Unzip anywhere and run it — nothing installs, and deleting the folder
-removes it completely.
+Windows 10 or 11, 64-bit. Grab `NoDeadAir-v*-share.zip`, unzip it anywhere and run it — nothing
+installs, and deleting the folder removes it completely.
 
 ---
 
